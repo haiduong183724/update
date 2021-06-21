@@ -1,0 +1,132 @@
+.header-icon{
+    cursor: pointer;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    color: gray;
+}
+.right-header{
+    display: flex;
+    padding-right: 36px;
+}
+.left-header{
+    display: flex;
+}
+.header-name{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    color: #111;
+    padding: 8px 0;
+    padding-left: 30px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.header-name img{
+    height: 100%;
+    padding-right: 8px;
+}
+.header-current{
+    border: 0.2px solid;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    padding: 0 12px;
+    margin: auto 15px;
+    cursor: pointer;
+}
+.header-status{
+    background-color: #4ea344;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+.status-name{
+    padding-left: 7px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+.filter{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border:0.5px solid;
+    margin: 8px;
+    border-radius: 5px;
+}
+.filter input[type="text"]{
+    border: 0;
+    margin-right: 10px;
+    height: 18px;
+    outline:0;
+}
+.filter a{
+    color: #111;
+    cursor: pointer;
+}
+.round-border{
+    border-radius: 50%;
+    margin: auto 0;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    border: 0.5px solid;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.header button{
+    width: 45px;
+    height: 100%;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+    outline: 0;
+    
+}
+.header button.item-center{
+    justify-content: center;
+}
+.header i{
+    margin: 0 5px;
+    color: gray;
+}
+.left-header {
+    font-size: 20px;
+    font-weight: 600;
+}
+.header-name i{
+    font-size: 24px;
+    font-weight: 300;
+}
+.header button:hover{
+    background-color: #4ea344;
+}
+@media screen and (max-width:1100x) {
+    .filter_input{
+        width: 0;
+        margin: 0;
+        display: none;
+    }
+    .header-name{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .status-name{
+        font-size: 12px;
+    }  
+}
+@media screen and (max-width:1222px) {
+    .filter_input{
+        width: 100px;
+        margin: 0;
+    }
+    .header-name{
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    .status-name{
+        font-size: 12px;
+    }  
+}
